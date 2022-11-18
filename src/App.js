@@ -1,4 +1,3 @@
-import Navbar from "./components/organisms/Navbar";
 import Main from "./components/organisms/Main";
 import CardSeccion from "./components/organisms/CardSeccion";
 import Seccion3 from "./components/organisms/Seccion3";
@@ -14,7 +13,6 @@ import Footer from "./components/organisms/Footer";
 function App() {
   return (
     <>
-    <Navbar/>
     <Main/>
     <CardSeccion/>
     <Seccion3/>

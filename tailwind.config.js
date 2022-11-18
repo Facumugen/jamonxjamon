@@ -11,14 +11,14 @@ module.exports = {
       secondaryColor: "#b45309",
       mainColor: "#fed7aa",
       pastelColor: "#fefce8",
-      skinColor: "#ef4444",
-      darkSkinColor: "#7f1d1d",
+      skinColor: "#BF875A",
+      darkSkinColor: "#EBECF0",
       black: "black",
       darkGrey: "#15141c",
-      fontPrimary: "#957C65",
+      fontPrimary: "#C4A483",
       fontSecondary:"#191919",
       white: "white",
-      navbarColor: "#4E231B"
+      navbarColor: "#764640"
      
     },
     extend: {

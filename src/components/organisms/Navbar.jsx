@@ -7,8 +7,8 @@ const Navbar = () => {
   return (
     <>
     <nav className="fixed z-10 flex flex-col w-full h-auto bg-navbarColor opacity-95 md:bg-transparent md:sticky-top navbar navbar-expand-lg navbar-light">
-      <div className="flex flex-wrap p-1">
-        <button className="py-3 pl-5 navbar-toggler sm:z-40" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      <div className="flex flex-wrap justify-between px-2">
+        <button className="flex px-3 py-3 navbar-toggler sm:z-40" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
           className="w-7" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -17,33 +17,29 @@ const Navbar = () => {
           </path>
           </svg>
         </button>
-        <div className="justify-end flex-grow collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="flex navbar-nav nav-item md:hidden">
+          <img className='w-14' src="logos/logo.png" alt="logo-jamónxjamón" />
+        </div>
+        <div className="flex-grow p-5 lg:p-0 md:justify-evenly collapse navbar-collapse" id="navbarSupportedContent">
           {/* <!-- Left links --> */}
-          <ul className="flex flex-col navbar-nav list-style-none">
-            <li className="p-6 nav-item">
-              <a className="p-0 text-lg font-light uppercase nav-link hover:text-gray-700 text-pastelColor" href="!#">inicio</a>
-            </li>
-            <li className="p-6 nav-item">
-              <a className="p-0 text-lg font-light uppercase nav-link hover:text-gray-700 text-pastelColor" href="!#">productos</a>
-            </li>
-          </ul>
+            <div className="flex mt-6 navbar-nav nav-item">
+              <a className="font-serif text-lg text-white uppercase nav-link hover:text-gray-700" href="!#">inicio</a>
+            </div>
+            <div className="flex mt-6 navbar-nav nav-item">
+              <a className="p-0 font-serif text-lg text-white uppercase nav-link hover:text-gray-700" href="!#">productos</a>
+            </div>
+            <div className="justify-center navbar-nav nav-item collapse navbar-collapse">
+              <img className='w-20' src="logos/logo.png" alt="logo-jamónxjamón" />
+            </div>
+            <div className='flex mt-6 navbar-nav nav-item'>
+              <a className="p-0 font-serif text-lg font-light text-white uppercase nav-link hover:text-gray-700" href="!#">distribuidores</a>
+            </div>
+            <div className="flex mt-6 navbar-nav nav-item">
+              <a className="p-0 font-serif text-lg text-white uppercase nav-link hover:text-gray-700" href="!#">contacto</a>
+            </div>
         </div>
-        <div className="justify-center flex-grow collapse navbar-collapse">
-        <img className='w-24 ' src="logos/logo.png" alt="logo-jamónxjamón" />
         </div>
-        <div className="justify-start flex-grow collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className='flex flex-col pl-0 navbar-nav list-style-none'>
-            <li className="p-6 nav-item">
-              <a className="p-0 font-serif text-lg font-light uppercase nav-link hover:text-gray-700 text-pastelColor" href="!#">distribuidores</a>
-            </li>
-            <li className="p-6 nav-item">
-              <a className="p-0 text-lg font-light uppercase nav-link hover:text-gray-700 text-pastelColor" href="!#">contacto</a>
-            </li>
-          </ul>
          {/* <!-- Right elements --> */}
-
-        </div>
-      </div>
     </nav>
   </>
   )

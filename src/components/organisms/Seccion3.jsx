@@ -4,8 +4,8 @@ import banner from '../../graphics/imagenes/Varios/banner.jpg'
 
 function Seccion3(){
   return (
-    <div className='flex justify-center w-full bg-backgroundSeccion3'>
-        <img className='w-full' src={banner} alt="" />
+    <div className='flex justify-center w-full h-full md:bg-backgroundSeccion3'>
+        <img className='w-full h-full' src={banner} alt="" />
     </div>
   )
 }

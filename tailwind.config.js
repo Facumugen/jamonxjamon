@@ -8,7 +8,7 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       darkColor: "#7c2d12",
-      secondaryColor: "#b45309",
+      secondaryColor: "#764640",
       mainColor: "#fed7aa",
       pastelColor: "#fefce8",
       skinColor: "#BF875A",
@@ -16,7 +16,7 @@ module.exports = {
       black: "black",
       darkGrey: "#15141c",
       fontPrimary: "#C4A483",
-      fontSecondary:"#191919",
+      darkSecondary:"#0D111C",
       white: "white",
       navbarColor: "#764640"
      

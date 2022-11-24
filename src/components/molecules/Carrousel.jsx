@@ -3,18 +3,9 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import ImageCarrousel from '../atoms/ImageCarrousel';
 
-import CHAROL_NEGRO from '../../graphics/imagenes/productos/charol_negro.jpg'
-import CHAROL_BLANCO from '../../graphics/imagenes/productos/charol_blanco.jpg'
-import CHAROL_COMBINADO from '../../graphics/imagenes/productos/charol_combinado.jpg'
-import LEONETTI_FARO from '../../graphics/imagenes/productos/leonetti_faro1.jpg'
-import LEONETTI_FLORENCIA from '../../graphics/imagenes/productos/leonetti_florencia1.jpg'
-import LEONETTI_KENAI from '../../graphics/imagenes/productos/leonetti_kenai1.jpg'
-import LEONETTI_MORRISON from '../../graphics/imagenes/productos/leonetti_morrison1.jpg'
-import LEONETTI_NEGRO from '../../graphics/imagenes/productos/leonetti_negro1.jpg'
-import LEONETTI_ROMA from '../../graphics/imagenes/productos/leonetti_roma1.jpg'
-import LEONETTI_RONALD from '../../graphics/imagenes/productos/leonetti_ronald1.jpg'
-
-
+import CINCOJ from '../../graphics/imagenes/productos/5j1.jpeg'
+import FRIGORIFICO from '../../graphics/imagenes/productos/190frigorifico1.jpeg'
+import DOSCATORCE from '../../graphics/imagenes/productos/214.jpeg'
 
 const options={
     margin: 0,
@@ -59,45 +50,19 @@ const Carrousel = () => {
         <h3 className='text-2xl font-bold text-fontSecondary'> Destacado </h3>
     </div>
     <div>
-
-        <OwlCarousel className='owl-theme bg-white' {...options}>
-        <div className='item flex justify-center '>
-            <ImageCarrousel image={CHAROL_NEGRO}/>
-        </div>
-        <div className='item flex justify-center '>
-            <ImageCarrousel image={CHAROL_BLANCO}/>
-        </div>
-        <div className='item flex justify-center '>
-            <ImageCarrousel image={CHAROL_COMBINADO}/>
-        </div>
-        <div className='item flex justify-center '>
-            <ImageCarrousel image={LEONETTI_FARO}/>
-        </div>
-        <div className='item flex justify-center '>
-            <ImageCarrousel image={LEONETTI_FLORENCIA}/>
-        </div>
-        <div className='item flex justify-center '>
-            <ImageCarrousel image={LEONETTI_KENAI}/>
-        </div>
-        <div className='item flex justify-center'>
-            <ImageCarrousel image={LEONETTI_MORRISON}/>
-        </div>
-        <div className='item flex justify-center'>
-            <ImageCarrousel image={LEONETTI_NEGRO}/>
-        </div>
-        <div className='item flex justify-center'>
-            <ImageCarrousel image={LEONETTI_ROMA}/>
-        </div>
-        <div className='item flex justify-center'>
-            <ImageCarrousel image={LEONETTI_RONALD}/>
-        </div>
-    
+        <OwlCarousel className='bg-white owl-theme' {...options}>
+            <div className='flex justify-center item '>
+                <ImageCarrousel image={CINCOJ}/>
+            </div>
+            <div className='flex justify-center item '>
+                <ImageCarrousel image={FRIGORIFICO}/>
+            </div>
+            <div className='flex justify-center item '>
+                <ImageCarrousel image={DOSCATORCE}/>
+            </div>
         </OwlCarousel>
     </div>
     </>
-    
-    
-    
     
   )
 }

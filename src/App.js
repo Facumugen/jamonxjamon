@@ -8,8 +8,6 @@ import Footer from "./components/organisms/Footer";
 
 
 
-
-
 function App() {
   return (
     <>

@@ -6,7 +6,7 @@ const Card = ({value}) => {
     <div data-bs-toggle="modal" data-bs-target={`#id${value.id}`}>
         <div className="w-auto transition-all duration-200 ease-in-out scale-100 bg-white shadow-xl cursor-pointer rounded-2xl sm:shadow-2xl md:shadow-xl xl:shadow-none hover:shadow-2xl hover:scale-104">
           <div className="flex items-start justify-center w-auto h-auto p-5 overflow-hidden ">
-            <img className="object-contain h-auto mt-1 rounded-full w-44 md:w-40 brightness-120" src= {value.img} alt="zapatos" />
+            <img className="object-contain w-32 mt-1 h-36 md:w-20 brightness-120" src= {value.img} alt="zapatos" />
           </div>
   
           <div className="flex-col w-auto p-5 text-center">

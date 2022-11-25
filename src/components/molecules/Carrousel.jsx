@@ -6,6 +6,18 @@ import ImageCarrousel from '../atoms/ImageCarrousel';
 import CINCOJ from '../../graphics/imagenes/productos/5j1.jpeg'
 import FRIGORIFICO from '../../graphics/imagenes/productos/190frigorifico1.jpeg'
 import DOSCATORCE from '../../graphics/imagenes/productos/214.jpeg'
+import ALAIRE from '../../graphics/imagenes/productos/alaire1.jpeg'
+import CARDENAS from '../../graphics/imagenes/productos/cardenas1.jpeg'
+import ELARTESANO from '../../graphics/imagenes/productos/elartesano1.jpeg'
+import ENRIQUETOMAS from '../../graphics/imagenes/productos/enriquetomas1.jpeg'
+import FOX from '../../graphics/imagenes/productos/fox1.jpeg'
+import LAOCTAVA from '../../graphics/imagenes/productos/laoctava1.jpeg'
+import LOMSICAR from '../../graphics/imagenes/productos/lomsicar1.jpeg'
+import LOSCALVOS from '../../graphics/imagenes/productos/loscalvos1.jpeg'
+import MONTENEVADO from '../../graphics/imagenes/productos/montenevado1.jpeg'
+import TORGELON from '../../graphics/imagenes/productos/torgelon1.jpeg'
+import TUDOR from '../../graphics/imagenes/productos/tudor1.jpeg'
+import VAES from '../../graphics/imagenes/productos/vaes1.jpeg'
 
 const options={
     margin: 0,
@@ -41,24 +53,56 @@ const options={
 
 
 const Carrousel = () => {
-   
-   
+
   return (
     <>
     
-    <div className='flex justify-center mt-5'>
-        <h3 className='text-2xl font-bold text-fontSecondary'> Destacado </h3>
-    </div>
     <div>
-        <OwlCarousel className='bg-white owl-theme' {...options}>
-            <div className='flex justify-center item '>
+        <OwlCarousel className='owl-theme' {...options}>
+            <div className='item'>
                 <ImageCarrousel image={CINCOJ}/>
             </div>
-            <div className='flex justify-center item '>
+            <div className='item '>
                 <ImageCarrousel image={FRIGORIFICO}/>
             </div>
-            <div className='flex justify-center item '>
+            <div className='item '>
                 <ImageCarrousel image={DOSCATORCE}/>
+            </div>
+            <div className='item '>
+                <ImageCarrousel image={ALAIRE}/>
+            </div>
+            <div className='item '>
+                <ImageCarrousel image={CARDENAS}/>
+            </div>
+            <div className='item '>
+                <ImageCarrousel image={ELARTESANO}/>
+            </div>
+            <div className='item '>
+                <ImageCarrousel image={ENRIQUETOMAS}/>
+            </div>
+            <div className='item '>
+                <ImageCarrousel image={FOX}/>
+            </div>
+            <div className='item '>
+                <ImageCarrousel image={LAOCTAVA}/>
+            </div>
+            <div className='item '>
+                <ImageCarrousel image={LOMSICAR}/>
+            </div>
+            <div className='item '>
+                <ImageCarrousel image={LOSCALVOS}/>
+            </div>
+            <div className='item '>
+                <ImageCarrousel image={MONTENEVADO}/>
+            </div>
+            <div className='item '>
+                <ImageCarrousel image={TORGELON}/>
+            </div>
+            <div className='item '>
+                <ImageCarrousel image={TUDOR}/>
+            </div>
+            <div className='item '>
+                <ImageCarrousel image={VAES}/>
             </div>
         </OwlCarousel>
     </div>

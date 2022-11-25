@@ -3,6 +3,8 @@ import imagenSec5 from '../../graphics/imagenes/Varios/images2.jpg'
 
 
 
+
+
 const Seccion5 = () => {
   return (
     

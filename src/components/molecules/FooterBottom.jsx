@@ -1,33 +1,24 @@
 import FooterLinkContainer from "./FooterLinkContainer";
 
 
+
 import React from 'react'
 
 const FooterBottom = () => {
   return (
-    <div className='w-full h-full p-5 bg-skinColor'>
-            <div className='flex justify-between py-10 h-1/2'>
-                <div className='flex justify-center w-2/4 h-auto'>
-                    <p className='font-mono text-xs text-pastelColor'>
-                        Teléfonos: <br />
-                        0303 - 456 <br />
-                        011 - 111222 <br /> <br />
-                    </p>
+    <div className='flex flex-col w-auto h-auto pb-5 bg-skinColor'>
+            <div className='flex flex-row justify-around h-auto'>
+                <div className='flex w-auto h-auto'>
+                   <img className="w-36" src="logos/logofooter.png" alt="jamónxjamón"/>
                 </div>
-                <div className='flex justify-center h-auto md:w-1/2'>
-                   <FooterLinkContainer/> 
-                </div>
+                <FooterLinkContainer/> 
             </div>
 
-            <div className='flex flex-col w-full text-center align-bottom h-1/4'>
+            <div className='flex justify-center w-full pt-16 text-center align-bottom h-1/4'>
                 <p className='font-mono text-xs text-pastelColor'>
-                    Email: vintageGentlemen@gmail.com
-                </p>
-                <p className='font-mono text-xs text-pastelColor'>
-                    Powered By: La estación de Poder
+                    Derechos reservados ©2022 JamónxJamón.com
                 </p>
             </div>
-
     </div>
   )
 }

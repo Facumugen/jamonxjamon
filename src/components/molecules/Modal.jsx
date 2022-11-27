@@ -1,4 +1,6 @@
 
+<Modal id={`id${value.id}`} name={value.title} image={value.img} cost={value.price} />
+
 const Modal = ({id, name, image, cost}) => {
   return (
     <div class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
@@ -27,12 +29,10 @@ const Modal = ({id, name, image, cost}) => {
                   {cost}
                 </h2>
               </div>
-              <div className="flex flex-col justify-center w-auto mx-auto text-sm list-none">
-                  <li>Frente con cordones</li>
-                  <li>Suela de goma</li>
-                  <li>Forrado en gamuza</li>
-                  <li>Plantilla acolchada</li>
-                  <li>Pulido a mano</li>
+              <div className="flex flex-col justify-center w-auto mx-auto list-none text-md">
+                  <li>crudo</li>
+                  <li>24 meses</li>
+                  <li>de estacionamiento</li>
               </div>
 
             </div>

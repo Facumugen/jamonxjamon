@@ -1,12 +1,11 @@
-
 import React from 'react'
-
+import "../estilos/estilos.css"
 
 const Navbar = () => {
 
   return (
     <>
-    <nav className="fixed z-10 flex flex-col w-full h-auto md:bg-transparent bg-darkSecondary opacity-90 md:sticky-top navbar navbar-expand-lg navbar-light">
+    <nav className="fixed z-10 flex flex-col w-full h-auto md:bg-transparent bg-darkSecondary md:sticky-top navbar navbar-expand-lg navbar-light">
       <div className="flex flex-wrap justify-between px-2">
         <button className="flex px-3 py-6 navbar-toggler sm:z-40" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,19 +22,19 @@ const Navbar = () => {
         <div className="flex-grow p-5 lg:p-0 md:justify-evenly collapse navbar-collapse" id="navbarSupportedContent">
           {/* <!-- Left links --> */}
             <div className="flex mt-8 navbar-nav nav-item">
-              <a className="font-serif text-lg text-white uppercase transition duration-500 ease-in-out nav-link hover:text-skinColor hover:scale-100" href="!#">inicio</a>
+              <a className="p-0 text-lg text-white uppercase transition duration-500 ease-in-out estilos-nav nav-link hover:text-skinColor hover:scale-100" href="#inicio">inicio</a>
             </div>
             <div className="flex mt-8 navbar-nav nav-item">
-              <a className="p-0 font-serif text-lg text-white uppercase transition duration-500 ease-in-out nav-link hover:text-skinColor hover:scale-100" href="!#">productos</a>
+              <a className="p-0 text-lg text-white uppercase transition duration-500 ease-in-out estilos-nav nav-link hover:text-skinColor hover:scale-100" href="#productos">productos</a>
             </div>
             <div className="justify-center navbar-nav nav-item collapse navbar-collapse">
               <img className='w-24 pt-2' src="logos/logo.png" alt="logo-jamónxjamón" />
             </div>
             <div className='flex mt-8 navbar-nav nav-item'>
-              <a className="p-0 font-serif text-lg font-light text-white uppercase transition duration-500 ease-in-out nav-link hover:text-skinColor hover:scale-100" href="!#">distribuidores</a>
+              <a className="p-0 text-lg font-light text-white uppercase transition duration-500 ease-in-out estilos-nav nav-link hover:text-skinColor hover:scale-100" href="#marcas">distribuidores</a>
             </div>
             <div className="flex mt-8 navbar-nav nav-item">
-              <a className="p-0 font-serif text-lg text-white uppercase transition duration-500 ease-in-out nav-link hover:text-skinColor hover:scale-100" href="!#">contacto</a>
+              <a className="p-0 text-lg text-white uppercase transition duration-500 ease-in-out estilos-nav nav-link hover:text-skinColor hover:scale-100" href="#promociones">catálogo</a>
             </div>
         </div>
         </div>

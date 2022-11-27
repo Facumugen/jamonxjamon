@@ -3,40 +3,39 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import ImageCarrousel from '../atoms/ImageCarrousel';
 
-import CINCOJ from '../../graphics/imagenes/productos/5j1.jpeg'
-import FRIGORIFICO from '../../graphics/imagenes/productos/190frigorifico1.jpeg'
-import DOSCATORCE from '../../graphics/imagenes/productos/214.jpeg'
-import ALAIRE from '../../graphics/imagenes/productos/alaire1.jpeg'
-import CARDENAS from '../../graphics/imagenes/productos/cardenas1.jpeg'
-import ELARTESANO from '../../graphics/imagenes/productos/elartesano1.jpeg'
-import ENRIQUETOMAS from '../../graphics/imagenes/productos/enriquetomas1.jpeg'
-import FOX from '../../graphics/imagenes/productos/fox1.jpeg'
-import LAOCTAVA from '../../graphics/imagenes/productos/laoctava1.jpeg'
-import LOMSICAR from '../../graphics/imagenes/productos/lomsicar1.jpeg'
-import LOSCALVOS from '../../graphics/imagenes/productos/loscalvos1.jpeg'
-import MONTENEVADO from '../../graphics/imagenes/productos/montenevado1.jpeg'
-import TORGELON from '../../graphics/imagenes/productos/torgelon1.jpeg'
-import TUDOR from '../../graphics/imagenes/productos/tudor1.jpeg'
-import VAES from '../../graphics/imagenes/productos/vaes1.jpeg'
+import CINCOJ from '../../graphics/imagenes/logos/5j1.png'
+import FRIGORIFICO from '../../graphics/imagenes/logos/190frigorifico1.jpeg'
+import DOSCATORCE from '../../graphics/imagenes/logos/doscatorce1.jpeg'
+import ALAIRE from '../../graphics/imagenes/logos/alaire1.jpeg'
+import CARDENAS from '../../graphics/imagenes/logos/cardenas1.jpeg'
+import ELARTESANO from '../../graphics/imagenes/logos/elartesano1.jpeg'
+import ENRIQUETOMAS from '../../graphics/imagenes/logos/enriquetomas1.jpeg'
+import FOX from '../../graphics/imagenes/logos/fox1.jpeg'
+import LAOCTAVA from '../../graphics/imagenes/logos/laoctava1.jpeg'
+import LOMSICAR from '../../graphics/imagenes/logos/lomsicar1.jpeg'
+import LOSCALVOS from '../../graphics/imagenes/logos/loscalvos1.jpeg'
+import MONTENEVADO from '../../graphics/imagenes/logos/montenevado1.jpeg'
+import TORGELON from '../../graphics/imagenes/logos/torgelon1.jpeg'
+import TUDOR from '../../graphics/imagenes/logos/tudor1.jpeg'
+import VAES from '../../graphics/imagenes/logos/vaes1.jpeg'
 
 const options={
     margin: 0,
     responsiveClass: true,
-    nav: true,
-    dots: false,
+    nav: false,
+    dots: true,
     autoplay: false,
-    navText: ["Anterior", "Siguiente"],
     smartSpeed: 500,
     responsive: {
         0: {
             items: 2,
             margin: 10,
-            navText: ["Anterior", "Siguiente"],
+           
         },
         400: {
             items: 2,
             margin:10,
-            navText: ["Anterior", "Siguiente"],
+            
         },
         600: {
             items: 2,

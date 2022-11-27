@@ -1,5 +1,5 @@
 import React from 'react'
-import banner from '../../graphics/imagenes/Varios/banner.jpg'
+import banner from '../../graphics/imagenes/banners/banner.jpg'
 
 
 function Seccion3(){

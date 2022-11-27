@@ -14,7 +14,7 @@ module.exports = {
       skinColor: "#BF875A",
       darkSkinColor: "#EBECF0",
       black: "black",
-      darkGrey: "#15141c",
+      logotipocolor: "#C67763",
       fontPrimary: "#C4A483",
       darkSecondary:"#0D111C",
       white: "white",

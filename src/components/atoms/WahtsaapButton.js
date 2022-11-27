@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../../index.js";
+import "../estilos/estilos.css"
 
 
 const WahtsaapButton = () => {
@@ -21,7 +21,7 @@ const WahtsaapButton = () => {
         {showWsapBtn && (
         
       <a
-        href="https://api.whatsapp.com/send?phone=5492226444639&text=%C2%A1Hola!%20..."
+        href="https://api.whatsapp.com/send?phone=5491131887257&text=Hola,"
         class="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"

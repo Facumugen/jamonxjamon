@@ -12,7 +12,7 @@ module.exports = {
       mainColor: "#fed7aa",
       pastelColor: "#fefce8",
       skinColor: "#BF875A",
-      darkSkinColor: "#EBECF0",
+      darkSkinColor: "#F8F6EA",
       black: "black",
       logotipocolor: "#C67763",
       fontPrimary: "#C4A483",

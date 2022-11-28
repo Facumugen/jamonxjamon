@@ -12,7 +12,7 @@
 
 .estilos-h2{
   font-family: 'Italianno';
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 600;
 }
 
@@ -39,11 +39,13 @@
   font-family: 'Agrandir';
   font-size: 25px;
   font-weight: 100;
+  margin-top: 10px;
 }
 
 .seccion-p{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
+  text-align: justify;
 }
   /* scroll to Top*/
   .top-to-btm{
@@ -52,15 +54,15 @@
   .icon-position{
     position: fixed;
     bottom: 8px;
-    right: 23px;
+    right: 27px;
     z-index: 20;
   }
   .icon-style{
     background-color: #0D111C;
     border: 1px solid #fff;
     border-radius: 50%;
-    height: 45px;
-    width: 45px;
+    height: 37px;
+    width: 37px;
     color: #fff;
     cursor: pointer;
     animation: movebtn 3s ease-in-out infinite;

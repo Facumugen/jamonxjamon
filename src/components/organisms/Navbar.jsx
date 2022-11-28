@@ -31,7 +31,7 @@ const Navbar = () => {
               <img className='w-24 pt-2' src="logos/logo.png" alt="logo-jamónxjamón" />
             </div>
             <div className='flex mt-8 navbar-nav nav-item'>
-              <a className="p-0 text-lg font-light text-white uppercase transition duration-500 ease-in-out estilos-nav nav-link hover:text-skinColor hover:scale-100" href="#marcas">distribuidores</a>
+              <a className="p-0 text-lg font-light text-white uppercase transition duration-500 ease-in-out estilos-nav nav-link hover:text-skinColor hover:scale-100" href="#marcas">marcas</a>
             </div>
             <div className="flex mt-8 navbar-nav nav-item">
               <a className="p-0 text-lg text-white uppercase transition duration-500 ease-in-out estilos-nav nav-link hover:text-skinColor hover:scale-100" href="#promociones">catálogo</a>

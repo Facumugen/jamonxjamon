@@ -8,23 +8,29 @@ import "../estilos/estilos.css"
 const Seccion5 = () => {
   return (
     
-    <div id='promociones' className='flex flex-col items-center justify-center w-auto h-auto gap-3 py-10 bg-white md:flex-row'>
-        <h2 className='p-3 mt-8 capitalize md:mt-3 text-skinColor estilos-h2'>variedades</h2>
-        <div className='p-5 text-base font-normal text-fontSecondary md:w-1/3'>
-            <h2 className='uppercase estilos-h3'>nuestras presentaciones</h2>
-            <br />
-            <br />
-            <h3 className='p-3 estilos-h5 text-navbarColor'>kit unidad</h3>
-            <p className='p-3 seccion-p'>🔸El producto de su marca preferida</p>
-            <br />
-            <h3 className='p-3 estilos-h5 text-navbarColor'>kit accesorios</h3>
-            <p className='p-3 seccion-p'>🔸El producto con soporte mas un vino o cuchillo</p>
-            <br />
-            <h3 className='p-3 estilos-h5 text-navbarColor'>kit de corte</h3>
-            <p className='p-3 seccion-p'>🔸El producto mas soporte, vino, cuchillo, caja  y dos copas</p>
-            <br />
+    <div id='promociones' className='flex flex-col justify-center w-auto h-auto bg-white'>
+        <div className='flex justify-center'>
+            <h2 className='p-3 mt-16 capitalize md:mt-8 text-skinColor estilos-h2'>catálogo</h2>
         </div>
-        <img src={promo} alt="jamónxjamón-promo" className='w-1/2 rounded-md shadow-md md:w-1/4 md:h-1/4'/>
+        <div className='flex flex-wrap w-auto h-auto py-6 md:justify-evenly md:flex-row'>
+          <div className='w-3/4 ml-16 text-base font-normal h-1/2 text-fontSecondary lg:w-1/4 md:mt-8 sm:w-1/2 md:h-1/4'>
+              <h3 className='uppercase md:mb-16 estilos-h3 text-secondaryColor'>presentación</h3>
+              <br />
+              <br />
+              <h5 className='estilos-h5 text-navbarColor'>kit unidad</h5>
+              <p className='p-1 seccion-p'>El producto de su marca preferida</p>
+              <br />
+              <h5 className='estilos-h5 text-navbarColor'>kit accesorios</h5>
+              <p className='p-1 seccion-p'>El producto con soporte mas un vino o cuchillo</p>
+              <br />
+              <h5 className='estilos-h5 text-navbarColor'>kit de corte</h5>
+              <p className='p-1seccion-p'>El producto mas soporte, vino, cuchillo, caja  y dos copas</p>
+              <br />
+          </div>
+          <div className='w-full h-full p-10 md:p-4 md:w-1/2 lg:w-1/4 lg:h-1/4 sm:mt-4 md:mt-auto'>
+            <img src={promo} alt="jamónxjamón-promo" className='rounded-md md:shadow-md h-1/4 w-96'/>
+          </div>
+        </div>
     </div>
   )
 }

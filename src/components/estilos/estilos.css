@@ -30,22 +30,32 @@
 
 .estilos-h3{
   font-family: 'Italianno';
-  font-size: 30px;
+  font-size: 45px;
   font-weight: 300;
   line-height: 50xp;
 }
 
 .estilos-h5{
   font-family: 'Agrandir';
-  font-size: 25px;
-  font-weight: 100;
-  margin-top: 10px;
+  font-size: 33px;
+  font-weight: 300;
 }
 
 .seccion-p{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  text-align: justify;
+  font-size: 23px;
+}
+
+.estilos-card{
+  font-family: 'Agrandir';
+  font-size: 31px;
+  font-weight: 300;
+}
+
+.card-p{
+  font-family: 'Agrandir';
+  font-size: 20px;
+  font-weight: 100;
 }
   /* scroll to Top*/
   .top-to-btm{

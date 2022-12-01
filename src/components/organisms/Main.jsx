@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <>
     
-    <div style={{backgroundImage: "url(bgbanner/banner1.png)"}} id='inicio' className="flex flex-col h-auto min-w-full min-h-screen mt-0 bg-fixed bg-center bg-no-repeat bg-cover md:justify-between">
+    <div style={{backgroundImage: "url(bgbanner/mainportada1.jpeg)"}} id='inicio' className="flex flex-col h-auto min-w-full min-h-screen mt-0 bg-fixed bg-center bg-no-repeat bg-cover md:justify-between">
         <Navbar/>
         <div className='flex flex-col justify-end w-auto h-full md:text-justify md:mt-0 mt-96 md:p-9'>
           <div className='flex w-1/4 text-center md:w-full'>

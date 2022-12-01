@@ -28,20 +28,18 @@ const options={
             
         },
         600: {
-            items: 2,
-        },
-        700: {
             items: 3,
+            margin:10,
         },
         1000: {
-            items: 5,
-
+            items: 4,
+            margin:10,
         }
     },
 };
 
 
-const Carrousel1 = () => {
+const CarrouselImp = () => {
 
   return (
     <>
@@ -67,4 +65,4 @@ const Carrousel1 = () => {
   )
 }
 
-export default  Carrousel1
+export default  CarrouselImp

@@ -19,21 +19,21 @@ const Navbar = () => {
         <div className="flex navbar-nav nav-item md:hidden">
           <img className='w-20 py-2 pr-2 ' src="logos/logo.png" alt="logo-jamónxjamón" />
         </div>
-        <div className="flex-grow p-5 lg:p-0 md:justify-evenly collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="flex-grow p-5 lg:p-0 md:justify-evenly navbar-collapse" id="navbarSupportedContent">
           {/* <!-- Left links --> */}
-            <div className="flex mt-8 navbar-nav nav-item">
+            <div className="flex mt-8 nav-item">
               <a className="p-0 text-lg text-white uppercase transition duration-500 ease-in-out estilos-nav nav-link hover:text-skinColor hover:scale-100" href="#inicio">inicio</a>
             </div>
-            <div className="flex mt-8 navbar-nav nav-item">
+            <div className="flex mt-8 nav-item">
               <a className="p-0 text-lg text-white uppercase transition duration-500 ease-in-out estilos-nav nav-link hover:text-skinColor hover:scale-100" href="#productos">productos</a>
             </div>
-            <div className="justify-center navbar-nav nav-item collapse navbar-collapse">
+            <div className="justify-center nav-item collapse navbar-collapse">
               <img className='w-24 pt-2' src="logos/logo.png" alt="logo-jamónxjamón" />
             </div>
-            <div className='flex mt-8 navbar-nav nav-item'>
+            <div className='flex mt-8 nav-item'>
               <a className="p-0 text-lg font-light text-white uppercase transition duration-500 ease-in-out estilos-nav nav-link hover:text-skinColor hover:scale-100" href="#marcas">marcas</a>
             </div>
-            <div className="flex mt-8 navbar-nav nav-item">
+            <div className="flex mt-8 nav-item">
               <a className="p-0 text-lg text-white uppercase transition duration-500 ease-in-out estilos-nav nav-link hover:text-skinColor hover:scale-100" href="#promociones">catálogo</a>
             </div>
         </div>

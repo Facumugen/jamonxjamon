@@ -12,7 +12,7 @@ const Card = ({value}) => {
           <div className="flex-col w-auto p-5 text-center">
             <h2 className="mb-3 text-2xl font-bold capitalize text-secondaryColor">{value.title}</h2>
           </div>
-          <div className="flex-col w-auto p-5 mt-8 font-sans text-center text-zinc-600">
+          <div className="flex-col w-auto mt-8 font-sans text-center p-7 text-zinc-600">
               <p>
                 <span className="text-sm font-bold md:text-base text-fontPrimary">Crudo de {value.instalments} de estacionamiento<br /></span>
                 <span className="mt-3 text-base font-bold text-secondaryColor">Efectivo/Transferencia</span>

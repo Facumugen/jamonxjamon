@@ -17,24 +17,24 @@ const Navbar = () => {
         </svg>
         </button>
         <div className="flex navbar-nav nav-item md:hidden">
-          <img className='w-20 py-2 pr-2' src="logos/logo.png" alt="logo-jamónxjamón" />
+          <img className='w-24 py-2 pr-2 ' src="logos/logo.png" alt="logo-jamónxjamón" />
         </div>
         <div className="flex-grow p-5 md:flex collapse navbar-collapse lg:p-0 justify-evenly" id='navbarSupportedContent'>
           {/* <!-- Left links --> */}
             <div className='flex'>
-              <a className="p-0 mt-8 text-lg text-white uppercase transition duration-500 ease-in-out estilos-nav hover:text-skinColor hover:scale-100" href="#inicio">inicio</a>
+              <a className="p-0 mt-10 text-xl text-white uppercase transition duration-500 ease-in-out estilos-nav hover:text-skinColor hover:scale-100" href="#inicio">inicio</a>
             </div>
             <div className='flex'>
-              <a className="p-0 mt-8 text-lg text-white uppercase transition duration-500 ease-in-out estilos-nav hover:text-skinColor hover:scale-100" href="#productos">productos</a>
+              <a className="p-0 mt-10 text-xl text-white uppercase transition duration-500 ease-in-out estilos-nav hover:text-skinColor hover:scale-100" href="#productos">productos</a>
             </div>
             <div className="justify-center collapse navbar-collapse">
               <img className='w-24 pt-2' src="logos/logo.png" alt="logo-jamónxjamón" />
             </div>
             <div className='flex'>
-              <a  className="p-0 mt-8 text-lg font-light text-white uppercase transition duration-500 ease-in-out estilos-nav hover:text-skinColor hover:scale-100" href="#marcas">marcas</a>
+              <a  className="p-0 mt-10 text-xl font-light text-white uppercase transition duration-500 ease-in-out estilos-nav hover:text-skinColor hover:scale-100" href="#marcas">marcas</a>
             </div> 
             <div className='flex'>
-              <a  className="p-0 mt-8 text-lg text-white uppercase transition duration-500 ease-in-out estilos-nav hover:text-skinColor hover:scale-100" href="#promociones">catálogo</a>
+              <a  className="p-0 mt-10 text-xl text-white uppercase transition duration-500 ease-in-out estilos-nav hover:text-skinColor hover:scale-100" href="#promociones">catálogo</a>
             </div>
         </div>
         </div>

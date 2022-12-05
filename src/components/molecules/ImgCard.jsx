@@ -3,11 +3,9 @@ import CardImg2 from '../../graphics/imagenes/productos/loscalvos42.jpeg';
 import CardImg3 from '../../graphics/imagenes/productos/elartesano.jpeg';
 import CardImg4 from '../../graphics/imagenes/productos/tudor.jpeg';
 import CardImg5 from '../../graphics/imagenes/productos/torgelonblanco.jpeg';
-import CardImg6 from '../../graphics/imagenes/productos/loscalvosblanco.jpeg'
+import CardImg6 from '../../graphics/imagenes/productos/loscalvosblanco.jpg'
 import CardImg7 from '../../graphics/imagenes/productos/elartesanoblanco.jpeg'
 import CardImg8 from '../../graphics/imagenes/productos/tudorblanco.jpeg'
-//import CardImg9 from '../../graphics/imagenes/productos/tudor4.jpeg'
-//import CardImg10 from '../../graphics/imagenes/productos/leonetti_ronald1.jpg'
 
 
 const ImgCard = [
@@ -59,7 +57,6 @@ const ImgCard = [
         title: "tudor",
         instalments: "13 meses",
     },
-
  ];
 
  export default ImgCard;

@@ -7,6 +7,7 @@ import CINCOJ from '../../graphics/imagenes/logos/5j1.png'
 import ALAIRE from '../../graphics/imagenes/logos/alaire1.jpeg'
 import ENRIQUETOMAS from '../../graphics/imagenes/logos/enriquetomas1.jpeg'
 import MONTENEVADO from '../../graphics/imagenes/logos/montenevado1.jpeg'
+import CAPANEGRA from  '../../graphics/imagenes/logos/capanegra1.png'
 
 
 const options={
@@ -47,13 +48,16 @@ const CarrouselImp = () => {
     <div>
         <OwlCarousel className='owl-theme' {...options}>
             <div className='item'>
-                <ImageCarrousel image={MONTENEVADO}/>
-            </div>
-            <div className='item '>
                 <ImageCarrousel image={CINCOJ}/>
             </div>
             <div className='item '>
+                <ImageCarrousel image={CAPANEGRA}/>
+            </div>
+            <div className='item '>
                 <ImageCarrousel image={ENRIQUETOMAS}/>
+            </div>
+            <div className='item '>
+                <ImageCarrousel image={MONTENEVADO}/>
             </div>
             <div className='item '>
                 <ImageCarrousel image={ALAIRE}/>

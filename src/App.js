@@ -1,5 +1,6 @@
 import Main from "./components/organisms/Main";
 import CardSeccion from "./components/organisms/CardSeccion";
+import CardSeccionImp from "./components/organisms/CardSeccionImp";
 import Seccion3 from "./components/organisms/Seccion3";
 import Seccion4 from "./components/organisms/Seccion4";
 import Seccion5 from "./components/organisms/Seccion5";
@@ -12,6 +13,7 @@ function App() {
     <>
     <Main/>
     <CardSeccion/>
+    <CardSeccionImp/>
     <Seccion3/>
     <Seccion4/>
     <Seccion5/>

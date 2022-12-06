@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <>
     <nav className="fixed z-10 flex flex-col w-full h-auto lg:bg-transparent bg-darkSecondary md:sticky-top navbar navbar-expand-lg navbar-light">
-      <div className="flex flex-wrap justify-between px-2 container-fluid">
-      <button className="py-2 border-0 md:py-3 navbar-toggler sm:z-40" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      <div className="flex flex-wrap justify-between px-3 container-fluid">
+      <button className="py-2 pl-1 border-0 md:py-3 navbar-toggler sm:z-40" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
          className="w-7" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -17,7 +17,7 @@ const Navbar = () => {
         </svg>
         </button>
         <div className="flex navbar-nav nav-item lg:hidden">
-          <img className='w-24 py-2 pr-2 ' src="logos/logo.png" alt="logo-jamónxjamón" />
+          <img className='w-20 py-2 pr-2 md:w-24 ' src="logos/logo.png" alt="jamonxjamon-logo" />
         </div>
         <div className="flex-grow p-5 md:flex-grow collapse navbar-collapse lg:p-0 justify-evenly" id='navbarSupportedContent'>
           {/* <!-- Left links --> */}
@@ -28,7 +28,7 @@ const Navbar = () => {
               <a className="p-0 mt-10 text-2xl text-white uppercase transition duration-500 ease-in-out estilos-nav hover:text-skinColor hover:scale-100" href="#productos">productos</a>
             </div>
             <div className="justify-center collapse navbar-collapse">
-              <img className='pt-2 w-28' src="logos/logo.png" alt="logo-jamónxjamón" />
+              <img className='pt-2 w-28' src="logos/logo.png" alt="jamonxjamon-logo" />
             </div>
             <div className='flex'>
               <a  className="p-0 mt-10 text-2xl font-light text-white uppercase transition duration-500 ease-in-out estilos-nav hover:text-skinColor hover:scale-100" href="#marcas">marcas</a>
@@ -38,7 +38,6 @@ const Navbar = () => {
             </div>
         </div>
         </div>
-         {/* <!-- Right elements --> */}
     </nav>
   </>
   )

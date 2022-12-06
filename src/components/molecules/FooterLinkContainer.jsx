@@ -17,7 +17,7 @@ const FooterLinkContainer = () => {
       <div className='p-4 capitalize text-secondaryColor footer-h3'>
         <h3>contactanos:</h3>
       </div>
-      <div className='flex flex-row justify-end w-auto h-auto md:flex-row md:flex-wrap'>
+      <div className='flex flex-row justify-end w-auto h-auto p-3 md:flex-row md:flex-wrap'>
         <FooterLinkIcon icono={logoEmail1} link="mailto:jamonxjamonargentina@gmail.com"/>
         <FooterLinkIcon icono={logoFacebook1} link="https://www.facebook.com/jamonxjamonargentina/"/>
         <FooterLinkIcon icono={logoInstagram1} link="https://www.instagram.com/frimar_jamones_/?next=%2F" />

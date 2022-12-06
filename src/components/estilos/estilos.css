@@ -6,10 +6,11 @@
     font-weight: 600;
     line-height: 60px;
     margin-left: 20px;
+    text-transform: capitalize;
 }
 
 .estilos-h1 span {
-  font-size: 55px;
+  font-size: 45px;
 }
 
 .estilos-h2{
@@ -128,9 +129,12 @@
         margin-top: 30px;
     }
 
+    .estilos-h1 span{
+      font-size: 40px;
+    }
+
     .estilos-h2{
         font-size: 50px;
         font-weight: 500;
     }
-    
   }

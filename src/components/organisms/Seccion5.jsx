@@ -8,7 +8,7 @@ import "../estilos/estilos.css"
 const Seccion5 = () => {
   return (
     
-    <div id='promociones' className='flex flex-col justify-center w-auto h-auto bg-white'>
+    <div id='promociones' className='flex flex-col justify-center w-auto h-auto overflow-hidden bg-white'>
         <div className='flex justify-center'>
             <h2 className='p-3 mt-16 capitalize md:mt-8 text-skinColor estilos-h2'>catálogo</h2>
         </div>
@@ -33,7 +33,7 @@ const Seccion5 = () => {
               <p className='p-1 mt-6 seccion-p'>El producto mas el soporte, vino, cuchillo, caja  y dos copas</p>
               <br />
           </div>
-          <div className='w-3/4 mt-28 ml-14 sm:ml-32 lg:ml-0 h-1/2 sm:w-1/2 sm:h-1/4 md:w-3/4 md:h-3/4 lg:w-1/4 lg:h-1/4'>
+          <div className='w-3/4 mt-28 ml-14 sm:ml-24 lg:ml-0 h-1/2 sm:w-1/2 sm:h-1/4 md:w-3/4 md:h-3/4 lg:w-1/4 lg:h-1/4'>
             <CarrouselCat />
           </div>
         </div>

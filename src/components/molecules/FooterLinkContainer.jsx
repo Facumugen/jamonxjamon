@@ -20,7 +20,7 @@ const FooterLinkContainer = () => {
       <div className='flex flex-row justify-end w-auto h-auto p-3 md:flex-row md:flex-wrap'>
         <FooterLinkIcon icono={logoEmail1} link="mailto:jamonxjamonargentina@gmail.com"/>
         <FooterLinkIcon icono={logoFacebook1} link="https://www.facebook.com/jamonxjamonargentina/"/>
-        <FooterLinkIcon icono={logoInstagram1} link="https://www.instagram.com/frimar_jamones_/?next=%2F" />
+        <FooterLinkIcon icono={logoInstagram1} link="https://www.instagram.com/frimar_jamones/" />
         <FooterLinkIcon icono={logoWhatsapp1} link= "https://api.whatsapp.com/send?phone=5491131887257&text=Hola,"/>           
       </div>
     </div>

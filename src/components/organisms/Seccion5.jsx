@@ -13,7 +13,7 @@ const Seccion5 = () => {
             <h2 className='p-3 mt-16 capitalize md:mt-8 text-skinColor estilos-h2'>catálogo</h2>
         </div>
         <div className='flex flex-col justify-center w-auto h-auto py-6 lg:flex-row'>
-          <div className='w-3/4 h-auto mt-8 ml-12 text-base font-normal md:w-1/2 sm:ml-48 lg:ml-0 md:p-12 text-fontSecondary'>
+          <div className='w-3/4 h-auto mt-8 ml-10 text-base font-normal md:w-1/2 sm:ml-48 lg:ml-0 md:p-12 text-fontSecondary'>
               <h3 className='uppercase md:mb-16 estilos-h3 text-secondaryColor'>presentación</h3>
               <br />
               <br />

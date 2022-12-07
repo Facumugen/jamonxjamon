@@ -22,19 +22,19 @@ const Navbar = () => {
         <div className="flex-grow p-5 md:flex-grow collapse navbar-collapse lg:p-0 justify-evenly" id='navbarSupportedContent'>
           {/* <!-- Left links --> */}
             <div className='flex'>
-              <a className="p-0 mt-10 text-2xl text-white uppercase transition duration-500 ease-in-out estilos-nav hover:text-skinColor hover:scale-100" href="#inicio">inicio</a>
+              <a className="p-0 mt-10 text-2xl text-white uppercase transition duration-500 ease-in-out estilos-nav hover:text-darkColor hover:scale-100" href="#inicio">inicio</a>
             </div>
             <div className='flex'>
-              <a className="p-0 mt-10 text-2xl text-white uppercase transition duration-500 ease-in-out estilos-nav hover:text-skinColor hover:scale-100" href="#productos">productos</a>
+              <a className="p-0 mt-10 text-2xl text-white uppercase transition duration-500 ease-in-out estilos-nav hover:text-darkColor hover:scale-100" href="#productos">productos</a>
             </div>
             <div className="justify-center collapse navbar-collapse">
               <img className='pt-2 w-28' src="logos/logo.png" alt="jamonxjamon-logo" />
             </div>
             <div className='flex'>
-              <a  className="p-0 mt-10 text-2xl font-light text-white uppercase transition duration-500 ease-in-out estilos-nav hover:text-skinColor hover:scale-100" href="#marcas">marcas</a>
+              <a  className="p-0 mt-10 text-2xl font-light text-white uppercase transition duration-500 ease-in-out estilos-nav hover:text-darkColor hover:scale-100" href="#marcas">marcas</a>
             </div> 
             <div className='flex'>
-              <a  className="p-0 mt-10 text-2xl text-white uppercase transition duration-500 ease-in-out estilos-nav hover:text-skinColor hover:scale-100" href="#promociones">catálogo</a>
+              <a  className="p-0 mt-10 text-2xl text-white uppercase transition duration-500 ease-in-out estilos-nav hover:text-darkColor hover:scale-100" href="#promociones">catálogo</a>
             </div>
         </div>
         </div>

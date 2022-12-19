@@ -5,7 +5,7 @@ const Navbar = () => {
  
   return (
     <>
-    <nav className="fixed z-10 flex flex-col w-full h-auto lg:bg-transparent bg-darkSecondary md:sticky-top navbar navbar-expand-lg navbar-light">
+    <nav className="fixed z-10 flex flex-col w-full h-auto md:bg-transparent bg-darkSecondary md:sticky-top navbar navbar-expand-lg navbar-light">
       <div className="flex flex-wrap justify-between px-3 container-fluid">
       <button className="py-2 pl-1 border-0 md:py-3 navbar-toggler sm:z-40" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,7 +16,7 @@ const Navbar = () => {
           </path>
         </svg>
         </button>
-        <div className="flex navbar-nav nav-item lg:hidden">
+        <div className="flex navbar-nav nav-item md:hidden">
           <img className='w-20 py-2 pr-2 md:w-24 ' src="logos/logo.png" alt="jamonxjamon-logo" />
         </div>
         <div className="flex-grow p-5 md:flex-grow collapse navbar-collapse lg:p-0 justify-evenly" id='navbarSupportedContent'>

@@ -2,7 +2,7 @@ import React from 'react'
 import "../estilos/estilos.css"
 
 window.onhashchange = function () {
-  window.history.pushState('', document.title, window.location.pathname)
+  window.history.replaceState({}, document.title, window.location.href.split('#')[0]);
 }
 
 const Navbar = () => {

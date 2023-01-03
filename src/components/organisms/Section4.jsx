@@ -2,9 +2,9 @@ import CarrouselNac from "../molecules/CarrouselNac";
 import CarrouselImp from "../molecules/CarrouselImp";
 import "../estilos/estilos.css"
 
-const Seccion4 = () => {
+const Marcas = () => {
   return (
-    <div id="marcas"  className="flex flex-col h-full bg-darkSkinColor">
+    <div className="flex flex-col h-full bg-darkSkinColor">
         <div className="flex justify-center">
           <h2 className="p-3 mt-16 capitalize text-skinColor estilos-h2 ">nacionales</h2>
         </div>
@@ -21,4 +21,4 @@ const Seccion4 = () => {
   )
 }
 
-export default Seccion4
+export default Marcas;

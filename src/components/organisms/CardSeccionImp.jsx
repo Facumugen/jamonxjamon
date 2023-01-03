@@ -2,7 +2,7 @@ import CardImp from '../molecules/CardImp'
 import ImgCardImp from '../molecules/ImgCardImp'
 import "../estilos/estilos.css"
 
-export const CardSeccionImp = () => {
+export const ProductosImportados = () => {
   return (
     <>
     <div id='productos' className='flex flex-col w-full text-center bg-white h-min-screen'>
@@ -17,4 +17,4 @@ export const CardSeccionImp = () => {
   )
 }
 
-export default CardSeccionImp;
+export default ProductosImportados;

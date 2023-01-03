@@ -1,10 +1,10 @@
 import React from "react";
-import Main from "./components/organisms/Main";
-import CardSeccion from "./components/organisms/CardSeccion";
-import CardSeccionImp from "./components/organisms/CardSeccionImp";
-import Seccion3 from "./components/organisms/Seccion3";
-import Seccion4 from "./components/organisms/Seccion4";
-import Seccion5 from "./components/organisms/Seccion5";
+import Inicio from "./components/organisms/Main";
+import Productos from "./components/organisms/CardSeccion";
+import ProductosImportados from "./components/organisms/CardSeccionImp";
+import Banner from "./components/organisms/Section3";
+import Marcas from "./components/organisms/Section4";
+import Catálogo from "./components/organisms/Section5";
 import ScrollToTop from "./components/atoms/ScrollToTop";
 import WahtsaapButton from "./components/atoms/WahtsaapButton";
 import Footer from "./components/organisms/Footer";
@@ -12,12 +12,12 @@ import Footer from "./components/organisms/Footer";
 function App() {
   return (
     <>
-    <Main/>
-    <CardSeccion/>
-    <CardSeccionImp/>
-    <Seccion3/>
-    <Seccion4/>
-    <Seccion5/>
+    <Inicio/>
+    <Productos/>
+    <ProductosImportados/>
+    <Banner/>
+    <Marcas/>
+    <Catálogo/>
     <ScrollToTop/>
     <WahtsaapButton/>
     <Footer/>

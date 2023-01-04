@@ -6,7 +6,6 @@ window.onhashchange = function () {
 }
 
 const Navbar = () => {
- 
 
   return (
     <>

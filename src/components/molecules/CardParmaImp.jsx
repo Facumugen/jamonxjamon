@@ -1,4 +1,4 @@
-const CardParmaNac = ({value}) => {
+const CardParmaImp = ({value}) => {
 
     return (
       <div>
@@ -23,4 +23,4 @@ const CardParmaNac = ({value}) => {
     )
   }
   
-  export default CardParmaNac;
+  export default CardParmaImp;

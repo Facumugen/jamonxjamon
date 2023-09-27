@@ -3,6 +3,7 @@ import Inicio from "./components/organisms/Main";
 import Productos from "./components/organisms/CardSection";
 import ProductosImportados from "./components/organisms/CardSectionImp";
 import ProductosParmaNacionales from "./components/organisms/CardSectionParmaNac";
+import ProductosParmaImportados from "./components/organisms/CardSectionParmaImp";
 import Banner from "./components/organisms/Section3";
 import Marcas from "./components/organisms/Section4";
 import Catálogo from "./components/organisms/Section5";
@@ -14,8 +15,9 @@ function App() {
   return (
     <>
     <Inicio/>
-    <Productos/>
     <ProductosImportados/>
+    <Productos/>
+    <ProductosParmaImportados/>
     <ProductosParmaNacionales/>
     <Banner/>
     <Marcas/>

@@ -1,5 +1,5 @@
-import CardBox from '../molecules/CardBox'
 import ImgCardBox from '../molecules/ImgCardBox'
+import CardBox from '../molecules/CardBox'
 import "../estilos/estilos.css"
 
 export const BoxSection = () => {
@@ -9,8 +9,8 @@ export const BoxSection = () => {
         <h2 className='p-3 mt-16 capitalize md:mt-6 text-skinColor estilos-h2'>Box Gourmet</h2>
     <div className='flex flex-wrap justify-center w-auto gap-6 py-12 space-x-1 align-middle h-min-screen'>
       {ImgCardBox.map((item,i) =>
-        <CardBox key={i} value={item} index={i} />
-        )}
+      <CardBox key={i} value={item} index={i} />
+      )}
     </div>
     </div>
     </>

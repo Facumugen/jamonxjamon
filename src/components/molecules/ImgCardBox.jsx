@@ -5,7 +5,7 @@ import CardImg23 from '../../graphics/imagenes/productos/box gourmet/Caja La Pam
 //import CardImg24 from '../../graphics/imagenes/productos/box gourmet/Caja gourmet.jpg';
 import CardImg25 from '../../graphics/imagenes/productos/box gourmet/Caja Milan.jpg';
 import CardImg26 from '../../graphics/imagenes/productos/box gourmet/Caja París.jpg';
-import CardImg27 from '../../graphics/imagenes/productos/box gourmet/Caja Zurich.jpg';
+import CardImg27 from '../../graphics/imagenes/productos/box gourmet/Zurich.jpg';
 import CardImg28 from '../../graphics/imagenes/productos/box gourmet/Caja Santa Fe.jpg';
 import CardImg29 from '../../graphics/imagenes/productos/box gourmet/Caja Papá picada mini 1.jpg';
 import CardImg30 from '../../graphics/imagenes/productos/box gourmet/Caja Papá vip.jpg';

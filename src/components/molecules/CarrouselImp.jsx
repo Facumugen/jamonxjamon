@@ -69,4 +69,4 @@ const CarrouselImp = () => {
   )
 }
 
-export default  CarrouselImp
+export default  CarrouselImp;

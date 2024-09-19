@@ -8,6 +8,7 @@ import Banner from "./components/organisms/Section3";
 import CardBox from "./components/organisms/BoxSection";
 import Marcas from "./components/organisms/Section4";
 import Catálogo from "./components/organisms/Section5";
+import JamónCrudo from "./components/organisms/Section6";
 import ScrollToTop from "./components/atoms/ScrollToTop";
 import WahtsaapButton from "./components/atoms/WahtsaapButton";
 import Footer from "./components/organisms/Footer";
@@ -21,6 +22,7 @@ function App() {
     <ProductosParmaImportados/>
     <ProductosParmaNacionales/>
     <Banner/>
+    <JamónCrudo/>
     <CardBox/>
     <Marcas/>
     <Catálogo/>

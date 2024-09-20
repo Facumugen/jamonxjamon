@@ -8,7 +8,7 @@ import "../estilos/estilos.css"
 const Catálogo = () => {
   return (
     
-    <div className='flex flex-col justify-center w-auto h-auto overflow-hidden bg-white'>
+    <div className='flex flex-col justify-center w-auto h-auto overflow-hidden bg-darkSkinColor'>
         <div className='flex justify-center'>
             <h2 id='catálogo' className='p-3 mt-16 capitalize md:mt-8 text-skinColor estilos-h2'>catálogo</h2>
         </div>

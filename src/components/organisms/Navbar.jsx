@@ -26,19 +26,19 @@ const Navbar = () => {
         <div className="flex-grow p-5 md:flex-grow collapse navbar-collapse lg:p-0 justify-evenly" id='navbarSupportedContent'>
           {/* <!-- Left links --> */}
             <div className='flex'>
-              <a id="remove" className="p-0 mt-10 text-2xl text-white uppercase transition duration-500 ease-in-out estilos-nav hover:text-darkColor hover:scale-100" href="#inicio">inicio</a>
+              <a id="remove" className="p-0 mt-10 text-2xl text-white uppercase transition duration-500 ease-in-out estilos-nav hover:scale-110" href="#productos">jamón crudo</a>
             </div>
             <div className='flex'>
-              <a id="remove" className="p-0 mt-10 text-2xl text-white uppercase transition duration-500 ease-in-out estilos-nav hover:text-darkColor hover:scale-100" href="#productos">productos</a>
+              <a id="remove" className="p-0 mt-10 text-2xl text-white uppercase transition duration-500 ease-in-out estilos-nav hover:scale-110" href="#parma">tipo parma</a>
             </div>
             <div className="justify-center collapse navbar-collapse">
-              <img className='pt-2 w-28' src="logos/logo.png" alt="jamonxjamon-logo" />
+              <img className='pt-2 w-32 h-32' src="logos/logo.png" alt="jamonxjamon-logo" />
             </div>
             <div className='flex'>
-              <a id="remove" className="p-0 mt-10 text-2xl font-light text-white uppercase transition duration-500 ease-in-out estilos-nav hover:text-darkColor hover:scale-100" href="#marcas">marcas</a>
-            </div> 
+              <a id="remove" className="p-0 mt-10 text-2xl text-white uppercase transition duration-500 ease-in-out estilos-nav hover:scale-110" href="#sin hueso">j.c deshuesado</a>
+            </div>
             <div className='flex'>
-              <a id="remove" className="p-0 mt-10 text-2xl text-white uppercase transition duration-500 ease-in-out estilos-nav hover:text-darkColor hover:scale-100" href="#catálogo">catálogo</a>
+              <a id="remove" className="p-0 mt-10 text-2xl text-white uppercase transition duration-500 ease-in-out estilos-nav hover:scale-110" href="#box">box gourmet</a>
             </div>
         </div>
         </div>

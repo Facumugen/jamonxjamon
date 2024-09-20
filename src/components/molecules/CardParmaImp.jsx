@@ -8,10 +8,10 @@ const CardParmaImp = ({value}) => {
               <img className="object-contain w-32 h-32 mt-1 brightness-120" src= {value.img} alt="jamon crudo tipo parma" />
             </div>
     
-            <div className="flex-col w-auto p-5 text-center">
+            <div className="flex-col w-auto h-auto p-5 text-center">
               <h2 className="mb-0 text-3xl font-bold capitalize text-secondaryColor">{value.title}</h2>
             </div>
-            <div className="flex-col w-auto p-12 mt-8 font-sans text-center text-zinc-600">
+            <div className="flex-col w-auto h-auto p-12 mt-8 font-sans text-center text-zinc-600">
                 <p>
                   <span className="text-base font-bold md:text-base text-fontPrimary">{value.instalments}<br /></span>
                   <span className="mt-3 text-sm font-bold text-secondaryColor">Efectivo/Transferencia</span>

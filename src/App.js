@@ -19,12 +19,12 @@ function App() {
     <Inicio/>
     <ProductosImportados/>
     <Productos/>
+    <Marcas/>
+    <Banner/>
     <ProductosParmaImportados/>
     <ProductosParmaNacionales/>
-    <Banner/>
     <JamónCrudo/>
     <CardBox/>
-    <Marcas/>
     <Catálogo/>
     <ScrollToTop/>
     <WahtsaapButton/>

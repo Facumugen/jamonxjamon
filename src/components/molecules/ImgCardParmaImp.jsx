@@ -1,4 +1,4 @@
-import CardImg16 from '../../graphics/imagenes/productos/parmaimportado/parma.png';
+import CardImg16 from '../../graphics/imagenes/productos/parmaimportado/Casa Montorsi.png';
 import CardImg17 from '../../graphics/imagenes/productos/parmaimportado/ferrarini.png';
 import CardImg18 from '../../graphics/imagenes/productos/parmaimportado/san michele.png';
 import CardImg19 from '../../graphics/imagenes/productos/parmaimportado/negroni.png';
@@ -9,7 +9,7 @@ const ImgCardParmaImp = [
     {
         id:"16",
         img: CardImg16,
-        title: "parma",
+        title: "montorsi",
         instalments: "",
     },
     {

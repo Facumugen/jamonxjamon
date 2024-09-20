@@ -60,6 +60,10 @@
   font-size: 20px;
   font-weight: 100;
 }
+
+.card_title{
+  translate: "no";
+}
   /* scroll to Top*/
   .top-to-btm{
     position: relative;

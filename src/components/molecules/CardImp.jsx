@@ -10,7 +10,7 @@ const CardImp = ({value}) => {
             </div>
     
             <div className="flex-col w-auto p-5 text-center">
-              <h2 className="mb-0 text-2xl font-bold capitalize md:mb-3 text-secondaryColor">{value.title}</h2>
+              <h2 className="mb-0 text-2xl font-bold capitalize md:mb-3 text-secondaryColor card_title notranslate">{value.title}</h2>
             </div>
             <div className="flex-col w-auto mt-8 font-sans text-center p-7 text-zinc-600">
                 <p>

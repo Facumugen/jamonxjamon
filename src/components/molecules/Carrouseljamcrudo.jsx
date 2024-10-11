@@ -9,8 +9,6 @@ import LOSCALVOS from '../../graphics/imagenes/productos/jamón deshuesado/Los C
 import LOSCALVOS2 from '../../graphics/imagenes/productos/jamón deshuesado/Los Calvos 2.jpg'
 import TORGELON from  '../../graphics/imagenes/productos/jamón deshuesado/Torgelon.jpg'
 import TORGELON2 from  '../../graphics/imagenes/productos/jamón deshuesado/Torgelon 2.jpg'
-import ALMAGLAMOUR from  '../../graphics/imagenes/productos/jamón deshuesado/Alma Gourmet.jpg'
-import ALMAGLAMOUR2 from  '../../graphics/imagenes/productos/jamón deshuesado/Alma Gourmet 2.jpg'
 
 
 const options={
@@ -67,12 +65,6 @@ const Carrouseljamcrudo = () => {
             </div>
             <div className='item'>
                 <ImageCarrouselJamcrudo image={TORGELON2}/>
-            </div>
-            <div className='item '>
-                <ImageCarrouselJamcrudo image={ALMAGLAMOUR}/>
-            </div>
-            <div className='item '>
-                <ImageCarrouselJamcrudo image={ALMAGLAMOUR2}/>
             </div>
         </OwlCarousel>
     </div>

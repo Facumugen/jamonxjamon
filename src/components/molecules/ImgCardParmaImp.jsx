@@ -2,6 +2,7 @@ import CardImg16 from '../../graphics/imagenes/productos/parmaimportado/Casa Mon
 import CardImg17 from '../../graphics/imagenes/productos/parmaimportado/ferrarini.png';
 import CardImg18 from '../../graphics/imagenes/productos/parmaimportado/san michele.png';
 import CardImg19 from '../../graphics/imagenes/productos/parmaimportado/negroni.png';
+import CardImg20 from '../../graphics/imagenes/productos/parmaimportado/alma gourmet.png';
 
 
 const ImgCardParmaImp = [
@@ -28,6 +29,12 @@ const ImgCardParmaImp = [
         id:"19",
         img: CardImg19,
         title: "negroni",
+        instalments: "",
+    },
+    {
+        id:"20",
+        img: CardImg20,
+        title: "alma gourmet",
         instalments: "",
     },
  ];
